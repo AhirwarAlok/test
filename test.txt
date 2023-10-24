@@ -1,0 +1,32 @@
+Create a web Page which accepts the details of a tax payer
+
+ 
+
+1)Total Income
+2)Proofs - Docs(Ex:- HRA, 80CC, 80D etc)
+3)Refund Amount - Return 50 % of the total amount which was mentioned in proofs
+
+ 
+
+If the refund amount is greater than 1000/- , then create a task/line item in DB and display it in UI with the respective details
+
+ 
+
+Then the above amount should be verified by an authorizer(Specific Persons).
+
+ 
+
+Actions button -> Approve /Reject
+
+ 
+
+If the authorizer accepts the task. then show a popup stating that "Your Refund has been intiated and will be processed soon".
+
+ 
+
+If the authorizer rejects the task. then show a popup stating that "Your Refund has been rejected and mention the reason".
+
+ 
+
+Note :-  1)Include validations as well.
+2) If required, include few more fields than the one's which were mentioned above.
